@@ -1,0 +1,48 @@
+body {
+  background: rgb(0, 0, 0);
+  width: 100vw;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.schedule-container {
+  font-size: large;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.schedule-header {
+  display: flex;
+  width:1200px;
+  padding:20px;
+  justify-content: space-between;
+  font-weight:bolder;
+  margin-bottom: 20px;
+}
+
+.schedule-header > div {
+  flex: 1;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 90px;
+}
+.schedule-item {
+  width:1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background:linear-gradient(to right,#663399, #25134f);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.schedule-item > div {
+  flex: 1;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 90px;
+}
